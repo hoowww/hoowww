@@ -5,25 +5,25 @@ const links = [
   {
     Icon: Mail,
     label: "Email",
-    value: "aria.chen@email.com",
-    href: "mailto:aria.chen@email.com",
+    value: "hninoowai1892001@gmail.com",
+    href: "mailto:hninoowai1892001@gmail.com",
   },
   {
     Icon: Github,
     label: "GitHub",
-    value: "github.com/ariachen",
-    href: "#",
+    value: "hoowww",
+    href: "https://github.com/hoowww",
   },
   {
     Icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/ariachen",
-    href: "#",
+    value: "Hnin Oo Wai",
+    href: "https://www.linkedin.com/in/hnin-oo-wai-bbaa53222/",
   },
   {
     Icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Thailand",
     href: undefined,
   },
 ]
@@ -34,7 +34,7 @@ export function Contact() {
       <div className="mx-auto max-w-3xl text-center">
         <SectionHeading label="Get in Touch" />
         <p className="mx-auto mb-10 max-w-xl leading-relaxed text-muted-foreground sm:mb-12">
-          {"I'm always excited to chat about ML research, collaboration opportunities, or open-source projects. Don't hesitate to reach out!"}
+          {"I’m currently open to remote, full-time, or part-time opportunities, as well as volunteering and open-source collaborations. Feel free to reach out — I’d be glad to connect and explore how I can contribute."}
         </p>
 
         <div className="mx-auto grid max-w-sm gap-3 sm:max-w-none sm:grid-cols-2 sm:gap-4">

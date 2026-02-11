@@ -16,7 +16,7 @@ export default function Page() {
         <About />
         <Papers />
         <Skills />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
       </main>
       <Footer />

@@ -3,20 +3,30 @@ import { SectionHeading } from "./about"
 const skillGroups = [
   {
     category: "Languages",
-    skills: ["Python", "C++", "JavaScript", "SQL", "R"],
+    skills: ['Python', 'SQL'],
   },
   {
-    category: "ML / DL",
-    skills: ["PyTorch", "TensorFlow", "Hugging Face", "scikit-learn", "JAX"],
+    category: "Machine Learning",
+    skills: ["Random Forest", "scikit-learn", "XGBoost", 
+      "Logistics Regression", "K-Means Clustering", "SMOTE", 
+      "Association Rule Mining (FP-Growth, Apriori)"
+    ],
+  },
+  {
+    category: "Data Analysis & Visualization",
+    skills: [
+      "Predictive Modeling",
+      "Classification",
+      "Clustering",
+      "Model Evaluation",
+      "Correlation Analysis",
+      "Behavioral Data Analysis"
+    ],
   },
   {
     category: "Tools & Infra",
-    skills: ["Docker", "Git", "Weights & Biases", "MLflow", "AWS SageMaker"],
-  },
-  {
-    category: "Specialties",
-    skills: ["NLP", "Computer Vision", "GNNs", "Explainable AI", "LLM Fine-tuning"],
-  },
+    skills: ["Google Colab", "PowerBI", "Git", "Excel", "RapidMiner"],
+  }
 ]
 
 export function Skills() {
@@ -25,7 +35,7 @@ export function Skills() {
       <div className="mx-auto max-w-5xl">
         <SectionHeading label="Tech Stack" />
         <p className="mx-auto mb-12 max-w-2xl text-center leading-relaxed text-muted-foreground">
-          The tools and technologies I use to bring ideas from research papers to production systems.
+          Python-based machine learning workflow including data analysis, feature engineering, predictive modeling with scikit-learn and XGBoost, as well as clustering and association rule mining for behavioral data insights.
         </p>
 
         <div className="grid gap-4 sm:gap-6 sm:grid-cols-2">

@@ -1,7 +1,11 @@
+"use client"
+
 import Image from "next/image"
 import { ArrowDown, FileText, Github, Linkedin, Mail } from "lucide-react"
+import { useState } from "react"
 
 export function Hero() {
+  const [isHovered, setIsHovered] = useState(false)
   return (
     <section className="relative flex min-h-[100svh] items-center justify-center overflow-hidden px-4 pt-20 sm:px-6">
       {/* Decorative background blobs */}
@@ -16,14 +20,30 @@ export function Hero() {
         <div className="animate-fade-in-up flex-shrink-0">
           <div className="relative">
             <div className="absolute -inset-1 rounded-full bg-primary/20 blur-md" />
-            <Image
-              src="/avatar.jpg"
-              alt="Portrait of Hnin Oo Wai"
-              width={220}
-              height={220}
-              className="relative h-40 w-40 rounded-full border-4 border-card object-cover shadow-xl sm:h-52 sm:w-52 md:h-[220px] md:w-[220px]"
-              priority
-            />
+            <div 
+              className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-card shadow-xl sm:h-52 sm:w-52 md:h-[220px] md:w-[220px]"
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              {/* Default image */}
+              <Image
+                src="/images/hninoo2.jpeg"
+                alt="Portrait of Hnin Oo Wai"
+                fill
+                className="scale-[250%] -translate-y-[40%] translate-x-[4%] object-cover transition-opacity duration-300"
+                style={{ opacity: isHovered ? 0 : 1 }}
+                priority
+              />
+              {/* Hover image */}
+              <Image
+                src="/images/hninoo.jpeg"
+                alt="Portrait of Hnin Oo Wai"
+                fill
+                className="absolute inset-0 object-cover transition-opacity duration-300"
+                style={{ opacity: isHovered ? 1 : 0 }}
+                priority
+              />
+            </div>
           </div>
         </div>
 
@@ -37,7 +57,7 @@ export function Hero() {
           </h1>
           <p className="mx-auto mb-6 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg md:mx-0">
             AI/ML researcher with{" "}
-            <span className="font-semibold text-foreground">3 published papers</span>.
+            <span className="font-semibold text-foreground">2 published papers</span>.
             Proficient in Python, with solid experience across end-to-end machine learning and data analysis workflows.
           </p>
 

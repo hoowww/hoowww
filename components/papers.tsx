@@ -4,45 +4,45 @@ import { Badge } from "@/components/ui/badge"
 
 const papers = [
   {
-    title: "Attention-Guided Feature Fusion for Medical Image Segmentation",
-    venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    title: "Integrating Machine Learning into Consumer Behaviour Analysis for Insect-Based Protein Supplements",
+    venue: "Submitted",
+    year: "2026",
+    authors: "Nilubon Kurubanjerdjit, Hnin Oo Wai, Nyein Nyein Kyaw, Nyein Pyae Sone, Soontarin Nupap",
+    abstract:
+      "Used classification, clustering, and association rule mining to analyze consumer behavior in Thailand’s insect-based protein market. Random Forest achieved the highest predictive accuracy (76.11%), while segmentation and FP-Growth analysis revealed key consumer profiles and pricing influences.",
+    tags: ["Machine Learning", "Consumer Segmentation", "Insect-Based Protein", "Association Rule Mining",
+      "K-Means Clustering"
+    ],
+    link: "/papers/bugboost.pdf",
+  },
+  {
+    title: "Mining Student Behaviour Patterns for Mental Health Insights using Association Rule Learning",
+    venue: "9th International Conference on Information Technology (InCIT), Phuket, Thailand",
     year: "2025",
-    authors: "A. Chen, J. Park, S. Liu, M. Rodriguez",
-    abstract:
-      "We propose a novel attention-guided feature fusion mechanism that significantly improves segmentation accuracy on multi-organ CT scans, achieving state-of-the-art results on three benchmark datasets.",
-    tags: ["Computer Vision", "Medical AI", "Attention Mechanisms"],
-    link: "#",
+    authors: "Hnin Oo Wai, Nyein Nyein Kyaw, Zaw Shin Thant, Nilubon Kurubanjerdjit, Soontarin Nupap",
+    abstract: "This study applies Association Rule Mining (FP-Growth) to analyze behavioral and lifestyle factors influencing university students’ mental health. Using survey data from 266 Thai students, we identify key protective and risk patterns, including financial support, sleep quality, and digital entertainment habits. The findings provide interpretable, data-driven insights to support evidence-based mental health interventions.",
+    tags: ["Mental Health", "Student Behavior", "Association Rule Mining", "Survey Data", "Behavioral Patterns"],
+    link: "https://ieeexplore.ieee.org/document/11276048",
   },
   {
-    title: "Efficient Fine-Tuning of Large Language Models via Sparse Adapters",
-    venue: "Association for Computational Linguistics (ACL)",
-    year: "2024",
-    authors: "A. Chen, R. Gupta, K. Nakamura",
+    title: "Machine Learning-Driven Prediction and Analysis of Mental Health Risks Among University Students",
+    venue: "22nd International Joint Conference on Computer Science and Software Engineering (JCSSE), Chiang Mai, Thailand",
+    year: "2025",
+    authors: "Soontarin Nupap, Hnin Oo Wai, Nyein Nyein Kyaw, Zaw Shin Thant, Nilubon Kurubanjerdjit",
     abstract:
-      "We introduce SparseAdapt, a parameter-efficient fine-tuning method that reduces trainable parameters by 92% while retaining 98.5% of full fine-tuning performance across NLU benchmarks.",
-    tags: ["NLP", "LLMs", "Efficient ML"],
-    link: "#",
-  },
-  {
-    title: "Explainable Predictions for Climate Modeling with Graph Neural Networks",
-    venue: "NeurIPS Workshop on Tackling Climate Change with ML",
-    year: "2024",
-    authors: "A. Chen, L. Zhang, D. Okonkwo",
-    abstract:
-      "We apply graph neural networks to regional climate prediction and provide interpretable attribution maps that help scientists understand model decision-making in climate forecasting.",
-    tags: ["GNNs", "Climate AI", "Explainability"],
-    link: "#",
-  },
+      "Built a machine learning model to detect mental health risks in university students using survey data (n=266). XGBoost achieved the highest performance (F1-score: 83.90%, accuracy: 90.60%), while correlation and clustering analyses identified key behavioral predictors and risk subgroups.",
+    tags: ["Mental Health Risk Prediction", "Machine Learning", "XGBoost", "SMOTE", "Behavioral Data"],
+    link: "https://ieeexplore.ieee.org/document/11297942",
+  }
 ]
 
 export function Papers() {
   return (
-    <section id="papers" className="bg-secondary/50 px-4 py-16 sm:px-6 sm:py-24">
+    <section id="research" className="bg-secondary/50 px-4 py-16 sm:px-6 sm:py-24">
       <div className="mx-auto max-w-5xl">
         <SectionHeading label="Published Papers" />
         <p className="mx-auto mb-12 max-w-2xl text-center leading-relaxed text-muted-foreground">
-          My research sits at the intersection of machine learning theory and real-world applications,
-          from healthcare imaging to climate science.
+          My research lies at the intersection of machine learning, mental health assessment, and e-commerce analytics, with an emphasis on predictive modeling and behavioral insights.
         </p>
 
         <div className="flex flex-col gap-6">
@@ -86,6 +86,7 @@ export function Papers() {
 
                 <a
                   href={paper.link}
+                  target="_blank"
                   className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-primary transition-colors hover:text-primary/80"
                 >
                   Read Paper
