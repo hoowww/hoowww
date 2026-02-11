@@ -5,9 +5,8 @@ import { Menu, X } from "lucide-react"
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Papers", href: "#papers" },
+  { label: "Research", href: "#research" },
   { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ]
 
@@ -36,7 +35,7 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
         <a href="#" className="font-mono text-lg font-bold text-primary">
-          {"AC."}
+          {"Hnin Oo Wai"}
         </a>
 
         {/* Desktop */}

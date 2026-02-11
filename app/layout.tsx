@@ -16,8 +16,8 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Aria Chen | AI/ML Researcher',
-  description: 'Fresh graduate & AI/ML enthusiast with three published machine learning papers. Passionate about building intelligent systems.',
+  title: 'Hnin Oo Wai | ML Researcher | Data Analyst',
+  description: 'AI/ML enthusiast with three published machine learning papers. Passionate about building intelligent systems.',
 }
 
 export default function RootLayout({

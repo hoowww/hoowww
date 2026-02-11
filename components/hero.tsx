@@ -18,16 +18,12 @@ export function Hero() {
             <div className="absolute -inset-1 rounded-full bg-primary/20 blur-md" />
             <Image
               src="/avatar.jpg"
-              alt="Portrait of Aria Chen"
+              alt="Portrait of Hnin Oo Wai"
               width={220}
               height={220}
               className="relative h-40 w-40 rounded-full border-4 border-card object-cover shadow-xl sm:h-52 sm:w-52 md:h-[220px] md:w-[220px]"
               priority
             />
-            {/* Status dot */}
-            <span className="absolute bottom-3 right-3 flex h-4 w-4 items-center justify-center rounded-full border-2 border-card bg-emerald-400 sm:bottom-4 sm:right-4 sm:h-5 sm:w-5">
-              <span className="sr-only">Available for opportunities</span>
-            </span>
           </div>
         </div>
 
@@ -37,22 +33,22 @@ export function Hero() {
             {"Hello, I'm"}
           </p>
           <h1 className="mb-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-6xl">
-            <span className="text-balance">Aria Chen</span>
+            <span className="text-balance">Hnin Oo Wai</span>
           </h1>
           <p className="mx-auto mb-6 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg md:mx-0">
-            Fresh graduate & AI/ML researcher with{" "}
+            AI/ML researcher with{" "}
             <span className="font-semibold text-foreground">3 published papers</span>.
-            I build intelligent systems that bridge the gap between theory and real-world impact.
+            Proficient in Python, with solid experience across end-to-end machine learning and data analysis workflows.
           </p>
 
           {/* CTA buttons */}
           <div className="flex flex-wrap items-center justify-center gap-3 md:justify-start">
             <a
-              href="#papers"
+              href="#research"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-transform hover:scale-105 active:scale-95"
             >
               <FileText size={16} />
-              View Papers
+              View Research
             </a>
             <a
               href="#contact"
@@ -66,10 +62,11 @@ export function Hero() {
           {/* Social links */}
           <div className="mt-6 flex items-center justify-center gap-4 md:justify-start">
             {[
-              { Icon: Github, href: "#", label: "GitHub" },
-              { Icon: Linkedin, href: "#", label: "LinkedIn" },
+              { Icon: Github, href: "https://github.com/hoowww", label: "GitHub" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/hnin-oo-wai-bbaa53222", label: "LinkedIn" },
             ].map(({ Icon, href, label }) => (
               <a
+                target="_blank"
                 key={label}
                 href={href}
                 aria-label={label}
@@ -78,17 +75,6 @@ export function Hero() {
                 <Icon size={20} />
               </a>
             ))}
-            <a
-              href="#"
-              aria-label="Google Scholar"
-              className="rounded-full p-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 14l-8-5.5L12 3l8 5.5z" />
-                <path d="M4 8.5v7L12 21l8-5.5v-7" />
-                <circle cx="12" cy="14" r="3" />
-              </svg>
-            </a>
           </div>
         </div>
       </div>

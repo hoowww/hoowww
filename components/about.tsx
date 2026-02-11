@@ -4,12 +4,12 @@ const highlights = [
   {
     Icon: GraduationCap,
     title: "Education",
-    text: "B.S. Computer Science, Minor in Mathematics from Stanford University, Class of 2025.",
+    text: "3rd Year, Digital Technology For Business Innovation, Mae Fah Luang University, Thailand.",
   },
   {
     Icon: Brain,
     title: "Research Focus",
-    text: "Natural Language Processing, Computer Vision, and Explainable AI applied to healthcare and sustainability.",
+    text: "Applied machine learning in mental health and e-commerce, with an emphasis on data-driven analysis, predictive modeling, and user behavior insights.",
   },
   {
     Icon: Sparkles,
@@ -24,9 +24,7 @@ export function About() {
       <div className="mx-auto max-w-5xl">
         <SectionHeading label="About Me" />
         <p className="mx-auto mb-12 max-w-2xl text-center leading-relaxed text-muted-foreground">
-          I fell in love with AI when I trained my first neural network on handwritten digits
-          and watched it learn patterns I never explicitly taught it. Since then, I have been
-          chasing the thrill of building models that understand, generate, and reason.
+          I enjoy building meaningful projects that have real impact in everyday life. I’m passionate about applying machine learning to solve real-world problems and enjoy collaborating on innovative work that pushes boundaries.        
         </p>
 
         <div className="grid gap-4 sm:gap-6 md:grid-cols-3">
