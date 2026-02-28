@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { ArrowDown, FileText, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowDown, Download, Eye, File, FileText, Github, Linkedin, Mail } from "lucide-react"
 import { useState } from "react"
 
 export function Hero() {
@@ -71,11 +71,12 @@ export function Hero() {
               View Research
             </a>
             <a
-              href="#contact"
+              target="_blank"
+              href="/papers/how-resume.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-2.5 text-sm font-medium text-foreground transition-transform hover:scale-105 active:scale-95"
             >
-              <Mail size={16} />
-              Get in Touch
+              <Eye size={16} />
+              View Resume
             </a>
           </div>
 
