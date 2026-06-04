@@ -13,7 +13,7 @@ const papers = [
     tags: ["Machine Learning", "Consumer Segmentation", "Insect-Based Protein", "Association Rule Mining",
       "K-Means Clustering"
     ],
-    link: "/papers/bugboost.pdf",
+    link: "/papers/Integrating_Machine_Learning_into_Consumer_Behaviour_Analysis_for_Insect-Based_Protein_Supplements.pdf",
   },
   {
     title: "Mining Student Behaviour Patterns for Mental Health Insights using Association Rule Learning",
@@ -22,7 +22,7 @@ const papers = [
     authors: "Hnin Oo Wai, Nyein Nyein Kyaw, Zaw Shin Thant, Nilubon Kurubanjerdjit, Soontarin Nupap",
     abstract: "This study applies Association Rule Mining (FP-Growth) to analyze behavioral and lifestyle factors influencing university students’ mental health. Using survey data from 266 Thai students, we identify key protective and risk patterns, including financial support, sleep quality, and digital entertainment habits. The findings provide interpretable, data-driven insights to support evidence-based mental health interventions.",
     tags: ["Mental Health", "Student Behavior", "Association Rule Mining", "Survey Data", "Behavioral Patterns"],
-    link: "https://ieeexplore.ieee.org/document/11276048",
+    link: "/papers/Mining_Student_Behaviour_Patterns_for_Mental_Health_Insights_using_Association_Rule_Learning.pdf",
   },
   {
     title: "Machine Learning-Driven Prediction and Analysis of Mental Health Risks Among University Students",
@@ -32,7 +32,7 @@ const papers = [
     abstract:
       "Built a machine learning model to detect mental health risks in university students using survey data (n=266). XGBoost achieved the highest performance (F1-score: 83.90%, accuracy: 90.60%), while correlation and clustering analyses identified key behavioral predictors and risk subgroups.",
     tags: ["Mental Health Risk Prediction", "Machine Learning", "XGBoost", "SMOTE", "Behavioral Data"],
-    link: "https://ieeexplore.ieee.org/document/11297942",
+    link: "/papers/PaperID1571159198_Soontarin.pdf",
   }
 ]
 
