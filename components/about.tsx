@@ -4,7 +4,7 @@ const highlights = [
   {
     Icon: GraduationCap,
     title: "Education",
-    text: "3rd Year, Digital Technology For Business Innovation, Mae Fah Luang University, Thailand.",
+    text: "4th Year, Digital Technology For Business Innovation, Mae Fah Luang University, Thailand.",
   },
   {
     Icon: Brain,
@@ -14,7 +14,7 @@ const highlights = [
   {
     Icon: Sparkles,
     title: "Looking For",
-    text: "ML Engineer or Research Scientist roles where I can push the boundaries of applied machine learning.",
+    text: "Data Science, Machine Learning, Data Analyst, or IT Support internship roles where I can apply Python, SQL, data analysis, machine learning, and technical problem-solving to real-world projects.",
   },
 ]
 
