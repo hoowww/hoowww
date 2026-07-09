@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 const papers = [
   {
     title: "Integrating Machine Learning into Consumer Behaviour Analysis for Insect-Based Protein Supplements",
-    venue: "Submitted",
+    venue: "2026 18th International Conference on Knowledge and Smart Technology (KST)",
     year: "2026",
     authors: "Nilubon Kurubanjerdjit, Hnin Oo Wai, Nyein Nyein Kyaw, Nyein Pyae Sone, Soontarin Nupap",
     abstract:
