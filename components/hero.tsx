@@ -57,7 +57,7 @@ export function Hero() {
           </h1>
           <p className="mx-auto mb-6 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg md:mx-0">
             AI/ML researcher with{" "}
-            <span className="font-semibold text-foreground">2 published papers</span>.
+            <span className="font-semibold text-foreground">3 published papers</span>.
             Proficient in Python, with solid experience across end-to-end machine learning and data analysis workflows.
           </p>
 
